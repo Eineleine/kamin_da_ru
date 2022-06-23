@@ -1,0 +1,24 @@
+body, html {
+    background-image: url(../img/bricks_01.png);
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
+
+.header_menu_navbar_item {
+    border: 5px gold solid;
+   /* border-radius: 30px;*/
+}
+
+.item_a {
+    color: gold;
+    text-decoration: none;
+}
