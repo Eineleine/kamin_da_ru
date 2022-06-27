@@ -16,7 +16,7 @@ body, html {
 .header_menu_navbar_item {
     border: 5px gold solid;
     padding: 5px 15px 5px 15px;
-    background-color: black;
+    background-image: url(../img/81706168.jpg);
     
 }
 
@@ -42,7 +42,7 @@ body, html {
     margin-top: 100px;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+    background-image: url(../img/81706168.jpg);
     box-shadow: 0 0 50px rgba(0,0,0,1);
 }
 
@@ -53,10 +53,21 @@ body, html {
     justify-content: space-evenly;
     align-items: center;
     color: gold;
-    background-color: black;
+    background-image: url(../img/81706168.jpg);
     box-shadow: 0 0 50px rgba(0,0,0,1);
 }
 
 .text_about_me {
     width: 70%;
+}
+
+.main_section_price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gold;
+    background-image: url(../img/81706168.jpg);
+    box-shadow: 0 0 50px rgba(0,0,0,1);
 }
